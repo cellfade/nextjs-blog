@@ -17,14 +17,6 @@ const Footer = () => {
                             Twitter
                         </a>
                         <a
-                            href="#"
-                            className={"transition-colors hover:text-yellow-500"}
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            LinkedIn
-                        </a>
-                        <a
                             href="https://github.com/cellfade"
                             className={"transition-colors hover:text-yellow-500"}
                             target="_blank"
@@ -33,28 +25,20 @@ const Footer = () => {
                             GitHub
                         </a>
                         <a
-                            href="#"
+                            href="https://www.linkedin.com/in/andrew-miller-288b5059/"
                             className={"transition-colors hover:text-yellow-500"}
                             target="_blank"
                             rel="noreferrer"
                         >
-                            Medium
+                            LinkedIn
                         </a>
                         <a
-                            href="#"
+                            href="https://cellfade.myportfolio.com/recent-work"
                             className={"transition-colors hover:text-yellow-500"}
                             target="_blank"
                             rel="noreferrer"
                         >
-                            DEV
-                        </a>
-                        <a
-                            href="#"
-                            className={"transition-colors hover:text-yellow-500"}
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            Hashnode
+                            Current Design Portfolio
                         </a>
                     </div>
                 </div>
