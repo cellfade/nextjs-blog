@@ -14,8 +14,8 @@ const Navigation = () => {
                         cellfade
                     </a>
                 </Link>
-            </div>
-           <ThemeSwitch/> 
+                <ThemeSwitch/>
+            </div> 
         </div>
     )
 }
