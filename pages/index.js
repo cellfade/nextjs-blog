@@ -26,7 +26,7 @@ export default function Home({ allPostsData }) {
         <p>Find me on <a href="https://twitter.com/cellfade">Twitter</a>!</p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <h2 className={utilStyles.headingLg}>My musings</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
