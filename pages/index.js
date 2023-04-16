@@ -22,7 +22,7 @@ export default function Home({ allPostsData }) {
         <title>cells port</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Product designer by day, digital artist and developer by night.</p> 
+        <p>My name is cellfade! I am a product designer by day and developer/digital artist by night. I have 7+ years experience in product and ux/ui design, but have recently focused on service design at enterprise-scale. Classically trained and curious about new technologies, I am constantly exploring the unfolding digital environment around us.</p> 
         <p>Find me on <a href="https://twitter.com/cellfade">Twitter</a>!</p>
         <p>
           (This is a sample website - you’ll be building a site like this on{' '}
