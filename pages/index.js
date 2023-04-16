@@ -24,12 +24,7 @@ export default function Home({ allPostsData }) {
       <section className={utilStyles.headingMd}>
         <p>My name is cellfade! I am a product designer by day and developer/digital artist by night. I have 7+ years experience in product and ux/ui design, but have recently focused on service design at enterprise-scale. Classically trained and curious about new technologies, I am constantly exploring the unfolding digital environment around us.</p> 
         <p>Find me on <a href="https://twitter.com/cellfade">Twitter</a>!</p>
-        <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-        </p>
       </section>
-
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
@@ -43,6 +38,10 @@ export default function Home({ allPostsData }) {
           </li>
           ))}
         </ul>
+        <p>
+          (This website was built using this template{' '}
+          <a href="https://nextjs.org/learn">Next.js tutorial</a>.)
+        </p>
       </section>
     </Layout>
   );
