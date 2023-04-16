@@ -28,7 +28,9 @@ export default function Home({ allPostsData }) {
       </section>
 <br />
       <section className={utilStyles.headingSm}>
-        <p>My name is cellfade! I am a product designer by day and developer/digital artist by night. I have 7+ years experience in product and ux/ui design, but have recently focused on service design at enterprise-scale. Classically trained and curious about new technologies, I am constantly exploring the unfolding digital environment around us.</p>
+        <p>My name is cellfade! I am a product designer by day and developer/digital artist by night. I have 7+ years experience in product and ux/ui design, but have recently focused on service design at enterprise-scale.</p>
+        <br />
+         <p>Classically trained and curious about new technologies, I am constantly exploring the unfolding digital environment around us.</p>
         <br />
         <p>Find me on <a href="https://twitter.com/cellfade">Twitter</a>!</p>
       </section>
