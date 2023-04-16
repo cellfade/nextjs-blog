@@ -1,15 +1,15 @@
 // `pages/_app.js`
-import '../styles/global.css';
 import 'tailwindcss/tailwind.css'
+import '../styles/global.css';
 import Navigation from "../components/Navigation";
+import Footer from "../components/Footer";
 
-function MyApp({ Component, pageProps }) {
-  return (
-          <>
+function MyApp({Component, pageProps}) {
+    return <>
             <Navigation/>
             <Component {...pageProps} />
-          </>
-        )
+            <Footer/>
+    </>
 }
 
 export default MyApp
