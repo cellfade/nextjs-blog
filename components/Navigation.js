@@ -1,5 +1,7 @@
 import Link from "next/link"
 import React from "react"
+import { ThemeProvider } from 'next-themes'
+import ThemeSwitch from "../components/ThemeSwitch";
 
 const Navigation = () => {
     return (
@@ -13,6 +15,7 @@ const Navigation = () => {
                     </a>
                 </Link>
             </div>
+           <ThemeSwitch/> 
         </div>
     )
 }
