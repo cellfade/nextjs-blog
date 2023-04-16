@@ -24,6 +24,14 @@ const Footer = () => {
                         >
                             GitHub
                         </a>
+<a
+                            href="https://linktr.ee/cellfade"
+                            className={"transition-colors hover:text-yellow-500"}
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            Web3
+                        </a>
                         <a
                             href="https://www.linkedin.com/in/andrew-miller-288b5059/"
                             className={"transition-colors hover:text-yellow-500"}
@@ -38,7 +46,7 @@ const Footer = () => {
                             target="_blank"
                             rel="noreferrer"
                         >
-                            Current Design Portfolio
+                            Design Portfolio
                         </a>
                     </div>
                 </div>
