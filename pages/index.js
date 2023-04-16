@@ -45,11 +45,13 @@ export default function Home({ allPostsData }) {
           </li>
           ))}
         </ul>
-        <p className={utilStyles.headingSm}>
+      </section>
+      <section className={utilStyles.headingSm}>
+      <p>
           (This website was built using this {' '}
           <a href="https://nextjs.org/learn">Next.js tutorial</a> template.) 
         </p>
-      </section>
+        </section>
     </Layout>
   );
 }
