@@ -4,7 +4,7 @@ import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
-const name = 'Hi there!';
+const name = 'Hi there';
 export const siteTitle = 'Cellfade's portfolio';
 
 export default function Layout({ children, home }) {
@@ -14,7 +14,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Welcome to cellfade's portfolio!"
+          content="Welcome to cellfades portfolio"
         />
         <meta
           property="og:image"
