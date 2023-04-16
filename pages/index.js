@@ -22,7 +22,9 @@ export default function Home({ allPostsData }) {
         <title>cells port</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Welcome to my new portfolio and blog! FYI, This site is a work in progress...</p> 
+        <p>Welcome to my new portfolio and blog!</p>
+        <br />
+        <p>FYI, This site is a work in progress...</p>
       </section>
 <br />
       <section className={utilStyles.headingSm}>
