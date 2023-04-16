@@ -12,7 +12,7 @@ const About = () => {
                     </h1>
                     <div className="mt-6 text-gray-800 dark:text-white">
                         <p className="mb-4">
-                            My name is cellfade! I am a product designer by day and a developer/digital artist by night. I have 6+ years experience in product design and ux/ui design, but have recently focused on service design at enterprise-scale. Classically trained in traditional fine art creation, I am constantly exploring the unfolding digital environment around us..
+                            My name is cellfade! I am a product designer by day and a developer/digital artist by night. I have 6+ years experience in product design and ux/ui design, but have recently focused on service design at enterprise-scale. Classically trained in traditional fine art creation, I am constantly exploring the unfolding digital environment around us.
                         </p>
                     </div>
                 </div>
