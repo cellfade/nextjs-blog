@@ -39,8 +39,8 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
         <p>
-          (This website was built using this template{' '}
-          <a href="https://nextjs.org/learn">Next.js tutorial</a>.)
+          (This website was built using this {' '}
+          <a href="https://nextjs.org/learn">Next.js tutorial</a> template.) 
         </p>
       </section>
     </Layout>
