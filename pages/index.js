@@ -26,9 +26,6 @@ export default function Home({ allPostsData }) {
         <br /> 
         <p>Hello! FYI, This site is a work in progress...</p>
       </section>
-      {/* <main className={utilStyles.headingMd}>
-        <About/>
-      </main> */}
 <br />
       <section className={utilStyles.headingSm}>
         <p>My name is cellfade! I am a product designer by day and developer/digital artist by night. I have 7+ years experience in product and ux/ui design, but have recently focused on service design at enterprise-scale.</p>
@@ -37,6 +34,9 @@ export default function Home({ allPostsData }) {
         <br />
         <p>Find me on <a href="https://twitter.com/cellfade">Twitter</a>!</p>
       </section>
+      <main className={utilStyles.headingMd}>
+        <About/>
+      </main>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>My musings</h2>
         <ul className={utilStyles.list}>
