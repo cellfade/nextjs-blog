@@ -21,20 +21,20 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>cells portfolio</title>
       </Head>
-    <main className="max-w-4xl mx-auto mt-16 antialiased">
-        <About/>
-      </main>
       <section className={utilStyles.headingMd}>
-  {/*<p>Welcome to my new portfolio and blog!</p>
-        <br />*/}
+  {/* <p>Welcome to my new portfolio and blog!</p>
+        <br /> */}
         <p>FYI, This site is a work in progress...</p>
       </section>
+      <main className="max-w-4xl mx-auto mt-16 antialiased">
+        <About/>
+      </main>
 <br />
       <section className={utilStyles.headingSm}>
-        {/*<p>My name is cellfade! I am a product designer by day and developer/digital artist by night. I have 7+ years experience in product and ux/ui design, but have recently focused on service design at enterprise-scale.</p>
+        {/* <p>My name is cellfade! I am a product designer by day and developer/digital artist by night. I have 7+ years experience in product and ux/ui design, but have recently focused on service design at enterprise-scale.</p>
         <br />
          <p>Classically trained and curious about new technologies, I am constantly exploring the unfolding digital environment around us.</p>
-        <br />*/}
+        <br /> */}
         <p>Find me on <a href="https://twitter.com/cellfade">Twitter</a>!</p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
@@ -51,12 +51,12 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
       </section>
-      {/*<section className={utilStyles.headingSm}>
+      {/* <section className={utilStyles.headingSm}>
       <p>
           (This website was built using this {' '}
           <a href="https://nextjs.org/learn">Next.js tutorial</a> template.) 
         </p>
-        </section>*/}
+        </section> */}
     </Layout>
   );
 }
