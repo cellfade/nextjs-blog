@@ -1,6 +1,7 @@
 import React from "react"
 import Image from "next/image"
 import profile from "../public/profile.jpg"
+import appimage1 from "../public/appimage1.jpg"
 
 const About = () => {
     return (
@@ -18,8 +19,8 @@ const About = () => {
                 </div>
                 <div className="flex-shrink-0 lg:mt-12 lg:px-4 mb-10">
                     <Image
-                        src={profile}
-                        alt="Profile"
+                        src={appimage1}
+                        alt="UX/UI design mock-up"
                         priority={true}
                         className="rounded-full"
                         width={250}
