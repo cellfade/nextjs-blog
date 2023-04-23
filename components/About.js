@@ -8,10 +8,10 @@ const About = () => {
         <div className="container px-4 mx-auto">
             <div className="lg:space-x-5 lg:flex lg:flex-row item-center lg:-mx-4 flex flex-col-reverse text-center lg:text-left">
                 <div className="lg:px-4 lg:mt-12 ">
-                    <h1 className="text-2xl font-bold text-gray-900 lg:text-5xl dark:text-white">
+                    <h1 className={utilStyles.headingMd}>
                         Hello there,
                     </h1>
-                    <div className="mt-6 text-gray-800 dark:text-white">
+                    <div className={utilStyles.headingMd}>
                         <p className="mb-4">
                             My name is cellfade! I am a product designer by day and a developer/digital artist by night. I have 6+ years experience in product design and ux/ui design, but have recently focused on service design at enterprise-scale. Classically trained in traditional fine art creation, I am constantly exploring the unfolding digital environment around us.
                         </p>
