@@ -2,8 +2,8 @@ import React from "react"
 import Image from "next/image"
 import profile from "../public/profile.jpg"
 import appimage1 from "../public/appimage1.jpg"
-import appimage1 from "../public/appimage2.jpg"
-import appimage1 from "../public/appimage3.jpg"
+import appimage2 from "../public/appimage2.jpg"
+import appimage3 from "../public/appimage3.jpg"
 
 const About = () => {
     return (
