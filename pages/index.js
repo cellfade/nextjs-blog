@@ -21,6 +21,9 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>cells port</title>
       </Head>
+    <main className="max-w-4xl mx-auto mt-16 antialiased">
+        <About/>
+      </main>
       <section className={utilStyles.headingMd}>
         <p>Welcome to my new portfolio and blog!</p>
         <br />
