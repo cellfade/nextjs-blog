@@ -24,9 +24,9 @@ export default function Home({ allPostsData }) {
       <section className={utilStyles.headingMd}>
   {/* <p>Welcome to my new portfolio and blog!</p>
         <br /> */}
-        <p>FYI, This site is a work in progress...</p>
+        <p>Hello! FYI, This site is a work in progress...</p>
       </section>
-      <main className="max-w-4xl mx-auto mt-16 antialiased">
+      <main className={utilStyles.headingMd}>
         <About/>
       </main>
 <br />
