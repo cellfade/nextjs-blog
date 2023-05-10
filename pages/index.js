@@ -22,9 +22,7 @@ export default function Home({ allPostsData }) {
         <title>cells portfolio</title>
       </Head>
       <section className={utilStyles.headingMd}>
-  <p>Welcome to my new portfolio and blog!</p>
-        <br /> 
-        <p>Hello! FYI, This site is a work in progress...</p>
+  <p>Hello! FYI, This site is a work in progress...</p>
       </section>
 <br />
       <section className={utilStyles.headingSm}>
