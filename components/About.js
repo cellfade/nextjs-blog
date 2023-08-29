@@ -2,7 +2,7 @@ import React from "react"
 import Image from "next/image"
 import profile from "../public/profile.jpg"
 import appimage1 from "../public/appimage1.jpg"
-import appimage4 from "../public/appimage4.jpg"
+import appimage2 from "../public/appimage2.jpg"
 import appimage3 from "../public/appimage3.jpg"
 
 const About = () => {
@@ -32,7 +32,7 @@ const About = () => {
                 </div>
                 <div className="flex-shrink-0 lg:mt-12 lg:px-4 mb-10">
                     <Image
-                        src={appimage4}
+                        src={appimage2}
                         alt="UX/UI design mock-up 2"
                         priority={true}
                         className="rounded-full"
