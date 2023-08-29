@@ -51,6 +51,7 @@ const About = () => {
                         height={250}
                         placeholder="blur"
                     />
+                </div>
             </div>
         </div>
     )
