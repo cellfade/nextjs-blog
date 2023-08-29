@@ -32,7 +32,7 @@ const About = () => {
                 </div>
                 <div className="flex-shrink-0 lg:mt-12 lg:px-4 mb-10">
                     <Image
-                        src={appimage2}
+                        src={appimage4}
                         alt="UX/UI design mock-up 2"
                         priority={true}
                         className="rounded-full"
@@ -51,18 +51,6 @@ const About = () => {
                         height={250}
                         placeholder="blur"
                     />
-                </div>
-                 <div className="flex-shrink-0 lg:mt-12 lg:px-4 mb-10">
-                    <Image
-                        src={appimage4}
-                        alt="UX/UI design mock-up 4"
-                        priority={true}
-                        className="rounded-full"
-                        width={250}
-                        height={250}
-                        placeholder="blur"
-                    />
-                </div>
             </div>
         </div>
     )
